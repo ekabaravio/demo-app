@@ -1,3 +1,4 @@
+**Note API**
 This is a simple demo app, a RESTful API that allows users to create, retrieve, update, and delete notes. Each note can consist of a title and a body. Applied Login with JWT Authentication and Authorization
 <br><br>
 After the app started successfully, you may be able to see complete list of URLs, Models, Request and Responses through Swagger:<br>
