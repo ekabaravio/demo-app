@@ -10,6 +10,6 @@ import com.demo.model.Note;
 @Repository
 public interface NoteRepository extends JpaRepository<Note, Long> {
 
-    List<Note> findAllByOrderById();
+    List<Note> findAllOrderById();
 
 }

@@ -26,7 +26,7 @@ public class NoteServiceImpl implements NoteService {
 
     @Override
     public List<NoteDto> getNotesList() {
-    	List<Note> notes = noteRepository.findAllByOrderById();
+    	List<Note> notes = noteRepository.findAllOrderById();
         return notes.stream()
                 .map(noteMapper::toNoteDto)
                 .collect(Collectors.toList());
